@@ -5,38 +5,25 @@
 | Kelas | TI - 2F |
 | Absen | 25 |
 | Repository | [DPW-2026-RifatMarcianoPutera](https://github.com/vyoups/DPW-2026-RifatMarcianoPutera/tree/main/Jobsheet-02) |
-# Jobsheet 2 — CSS3 Styling Dasar
+# Catatan Jobsheet 3 — Bootstrap
 
 ## Materi
 
-Jobsheet 2 membahas **styling dasar menggunakan CSS3** untuk memperindah tampilan halaman HTML.
+Jobsheet 3 versi Bootstrap membahas pembuatan **website responsif menggunakan framework Bootstrap 5**.
 
 ## Materi yang Dipelajari
 
-* Menghubungkan file HTML dengan CSS menggunakan `<link rel="stylesheet">`
-* **CSS Box Model** untuk mengatur ukuran, margin, padding, dan border
-* **Flexbox** untuk mengatur layout navbar
-* **CSS Grid** untuk mengatur kartu statistik
-* Mengatur warna, font, tabel, form, tombol, dan layout halaman
+* Menggunakan **Bootstrap 5 melalui CDN**
+* Membuat navbar responsif dengan `.navbar`, `.navbar-toggler`, dan `.collapse`
+* Menggunakan sistem **Grid Bootstrap** dengan `.row` dan `.col-md-4`
+* Menggunakan komponen `.card`
+* Membuat tabel dengan `.table-striped` dan `.table-hover`
+* Menggunakan `.form-control` dan `.btn` untuk form dan tombol
 
-## Struktur File
+## Perbedaan dengan Jobsheet 3 CSS Murni
 
-```text
-jobsheet-02/
-├── Dokumentasi/
-├── anggota/
-├── assets/
-│   └── css/
-│       └── style.css
-├── buku/
-├── index.html
-└── README.md
-```
-
-## Perubahan dari Jobsheet 1
-
-Pada Jobsheet 2, struktur HTML dari Jobsheet 1 tetap digunakan. Perubahan utamanya adalah menambahkan CSS untuk mengatur **tampilan dan layout** halaman.
+Pada versi ini, layout yang sebelumnya dibuat menggunakan CSS sendiri diganti menggunakan **class Bootstrap**, sehingga kode CSS menjadi jauh lebih sedikit.
 
 ## Kesimpulan
 
-Jobsheet 2 berfokus pada penggunaan **CSS3 untuk memperindah dan mengatur layout website**, terutama dengan konsep **Box Model, Flexbox, dan CSS Grid**.
+Jobsheet ini mengajarkan penggunaan **Bootstrap 5 untuk membuat tampilan website yang responsif**, sehingga developer tidak perlu membuat seluruh sistem layout dan responsive design dari awal.
