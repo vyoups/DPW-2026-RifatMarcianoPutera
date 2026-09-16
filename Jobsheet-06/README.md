@@ -5,39 +5,33 @@
 | Kelas | TI - 2F |
 | Absen | 25 |
 | Repository | [DPW-2026-RifatMarcianoPutera](https://github.com/vyoups/DPW-2026-RifatMarcianoPutera/tree/main/Jobsheet-03) |
-# Catatan Jobsheet 5 — JavaScript DOM & Event
+# Catatan Jobsheet 6 — Fetch API & JSON
 
 ## Materi
 
-Jobsheet 5 membahas penggunaan **JavaScript untuk memanipulasi DOM dan menangani event** pada halaman web.
+Jobsheet 6 membahas penggunaan **Fetch API dan JSON** untuk mengambil data secara asynchronous tanpa menulis data langsung di HTML.
 
 ## Materi yang Dipelajari
 
-- Menghubungkan JavaScript melalui `assets/js/app.js`
-- Membuat hamburger menu menggunakan JavaScript
-- Validasi form secara client-side
-- Menampilkan pesan error langsung pada halaman
-- Membuat fitur pencarian tabel secara real-time
-- Menggunakan `confirm()` pada tombol hapus
-- Memanipulasi elemen HTML menggunakan DOM
+- Menggunakan `fetch()` untuk mengambil data JSON.
+- Menggunakan `async/await` untuk proses asynchronous.
+- Menampilkan data JSON secara dinamis ke dalam tabel.
+- Membuat **loading indicator** saat data sedang dimuat.
+- Menangani error menggunakan `try/catch`.
+- Menggunakan **event delegation** untuk tombol yang dibuat secara dinamis.
 
-## Fitur yang Ditambahkan
+## Data JSON
 
-### 1. Hamburger Menu
-Menu navigasi dapat dibuka dan ditutup menggunakan JavaScript dengan `classList.toggle()`.
+Data buku dan anggota disimpan sementara dalam:
 
-### 2. Validasi Form
-Form Tambah Buku dan Tambah Anggota melakukan pengecekan:
-- Field wajib diisi
-- Tahun harus berada pada rentang yang sesuai
-- Stok tidak boleh bernilai negatif
+```text
+data/
+├── buku.json
+└── anggota.json
+```
 
-### 3. Pencarian Tabel
-Kolom pencarian dapat menyaring data tabel secara langsung berdasarkan teks yang diketik.
-
-### 4. Tombol Hapus
-Tombol hapus menampilkan konfirmasi menggunakan `confirm()`, kemudian menghapus baris dari tampilan.
+Data tersebut kemudian diambil menggunakan `fetch()` dan ditampilkan ke halaman secara otomatis.
 
 ## Kesimpulan
 
-Jobsheet 5 memperkenalkan **JavaScript DOM dan Event** untuk membuat halaman web menjadi lebih interaktif. Validasi, pencarian tabel, menu navigasi, dan penghapusan data masih dilakukan di sisi browser dan belum terhubung ke server atau database.
+Jobsheet 6 mengajarkan cara mengambil dan menampilkan data secara **asynchronous menggunakan Fetch API dan JSON**, serta menangani proses loading dan error pada saat pengambilan data.
