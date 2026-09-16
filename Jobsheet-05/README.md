@@ -5,30 +5,39 @@
 | Kelas | TI - 2F |
 | Absen | 25 |
 | Repository | [DPW-2026-RifatMarcianoPutera](https://github.com/vyoups/DPW-2026-RifatMarcianoPutera/tree/main/Jobsheet-03) |
-# Jobsheet 3 — Responsive Design
+# Catatan Jobsheet 5 — JavaScript DOM & Event
 
 ## Materi
 
-Jobsheet 3 membahas **Responsive Design**, yaitu membuat tampilan website agar dapat menyesuaikan ukuran layar desktop, tablet, dan mobile.
+Jobsheet 5 membahas penggunaan **JavaScript untuk memanipulasi DOM dan menangani event** pada halaman web.
 
 ## Materi yang Dipelajari
 
-* Menambahkan `<meta name="viewport">` agar tampilan menyesuaikan layar perangkat.
-* Membuat **hamburger menu** menggunakan CSS tanpa JavaScript.
-* Membuat tabel responsif menggunakan `.table-responsive`.
-* Menggunakan **media query** untuk mengubah jumlah kolom kartu statistik.
-* Menguji tampilan pada ukuran layar mobile, tablet, dan desktop.
+- Menghubungkan JavaScript melalui `assets/js/app.js`
+- Membuat hamburger menu menggunakan JavaScript
+- Validasi form secara client-side
+- Menampilkan pesan error langsung pada halaman
+- Membuat fitur pencarian tabel secara real-time
+- Menggunakan `confirm()` pada tombol hapus
+- Memanipulasi elemen HTML menggunakan DOM
 
-## Breakpoint
+## Fitur yang Ditambahkan
 
-| Perangkat | Ukuran Layar |
-| --------- | ------------ |
-| Mobile    | ≤ 480px      |
-| Tablet    | ± 768px      |
-| Desktop   | ≥ 1024px     |
+### 1. Hamburger Menu
+Menu navigasi dapat dibuka dan ditutup menggunakan JavaScript dengan `classList.toggle()`.
 
-Pada kartu statistik, jumlah kolom berubah dari **3 → 2 → 1** sesuai ukuran layar.
+### 2. Validasi Form
+Form Tambah Buku dan Tambah Anggota melakukan pengecekan:
+- Field wajib diisi
+- Tahun harus berada pada rentang yang sesuai
+- Stok tidak boleh bernilai negatif
+
+### 3. Pencarian Tabel
+Kolom pencarian dapat menyaring data tabel secara langsung berdasarkan teks yang diketik.
+
+### 4. Tombol Hapus
+Tombol hapus menampilkan konfirmasi menggunakan `confirm()`, kemudian menghapus baris dari tampilan.
 
 ## Kesimpulan
 
-Jobsheet 3 berfokus pada penerapan **Responsive Design menggunakan CSS**, sehingga website tetap nyaman digunakan pada berbagai ukuran layar.
+Jobsheet 5 memperkenalkan **JavaScript DOM dan Event** untuk membuat halaman web menjadi lebih interaktif. Validasi, pencarian tabel, menu navigasi, dan penghapusan data masih dilakukan di sisi browser dan belum terhubung ke server atau database.

@@ -200,6 +200,10 @@ footer {
     cursor: pointer;
 }
 
+.nav-toggle {
+    display: none;
+}
+
 /* ===== Responsive Breakpoints ===== */
 
 /* Tablet ke bawah */
