@@ -1,0 +1,12 @@
+[
+    { "id": "P001", "nama": "Tenda Dome 4 Orang", "harga_sewa": 75000, "status": "Tersedia" },
+    { "id": "P002", "nama": "Carrier Eiger 60L", "harga_sewa": 50000, "status": "Tersedia" },
+    { "id": "P003", "nama": "Sleeping Bag Polar", "harga_sewa": 25000, "status": "Tersedia" },
+    { "id": "P004", "nama": "Matras Alumunium Foil", "harga_sewa": 15000, "status": "Disewa" },
+    { "id": "P005", "nama": "Kompor Portable", "harga_sewa": 30000, "status": "Tersedia" },
+    { "id": "P006", "nama": "Headlamp LED", "harga_sewa": 20000, "status": "Disewa" },
+    { "id": "P007", "nama": "Trekking Pole", "harga_sewa": 20000, "status": "Tersedia" },
+    { "id": "P008", "nama": "Hammock Camping", "harga_sewa": 35000, "status": "Tersedia" },
+    { "id": "P009", "nama": "Tenda Dome 2 Orang", "harga_sewa": 60000, "status": "Disewa" },
+    { "id": "P010", "nama": "Cooler Box 20L", "harga_sewa": 40000, "status": "Tersedia" }
+]

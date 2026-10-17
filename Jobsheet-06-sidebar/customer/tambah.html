@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SewaGear - Tambah Customer</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-page="tambah-customer">
+    <div class="app-layout">
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-brand">Sewa Gear</div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="../index.html">Dashboard</a></li>
+                    <li><a href="../produk/list.html">Daftar Produk</a></li>
+                    <li><a href="../produk/tambah.html">Tambah Produk</a></li>
+                    <li><a href="list.html">Daftar Customer</a></li>
+                    <li><a href="tambah.html" class="active">Tambah Customer</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+        <div class="app-main">
+            <div class="topbar">
+                <button type="button" class="sidebar-toggle" id="sidebar-toggle" aria-label="Buka menu">&#9776;</button>
+                <h1>Tambah Customer</h1>
+            </div>
+
+            <main>
+                <section>
+                    <h2>Tambah Customer</h2>
+                    <form id="form-tambah">
+                        <p>
+                            <label for="nama">Nama:</label>
+                            <input type="text" id="nama" name="nama" required>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </p>
+                        <p>
+                            <label for="telepon">Telepon:</label>
+                            <input type="text" id="telepon" name="telepon" required>
+                        </p>
+                        <p>
+                            <button type="submit">Tambah</button>
+                        </p>
+                    </form>
+                </section>
+            </main>
+
+            <footer>
+                <p>&copy; 2026 Sewa Gear &mdash; UTS</p>
+            </footer>
+        </div>
+    </div>
+    <script src="../assets/js/app.js"></script>
+</body>
+</html>

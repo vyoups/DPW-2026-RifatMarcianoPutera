@@ -1,0 +1,10 @@
+[
+    { "id": "C001", "nama": "Siti Aminah", "email": "siti.aminah@email.com", "telepon": "081234567801" },
+    { "id": "C002", "nama": "Budi Santoso", "email": "budi.santoso@email.com", "telepon": "081234567802" },
+    { "id": "C003", "nama": "Dewi Lestari", "email": "dewi.lestari@email.com", "telepon": "081234567803" },
+    { "id": "C004", "nama": "Rizky Firmansyah", "email": "rizky.f@email.com", "telepon": "081234567804" },
+    { "id": "C005", "nama": "Anisa Rahmawati", "email": "anisa.rahma@email.com", "telepon": "081234567805" },
+    { "id": "C006", "nama": "Fajar Nugroho", "email": "fajar.nugroho@email.com", "telepon": "081234567806" },
+    { "id": "C007", "nama": "Putri Handayani", "email": "putri.h@email.com", "telepon": "081234567807" },
+    { "id": "C008", "nama": "Andi Pratama", "email": "andi.pratama@email.com", "telepon": "081234567808" }
+]
